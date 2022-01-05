@@ -1,0 +1,196 @@
+{
+	"id": "d902c7c9-4bcf-8d55-da18-815fc4d26fd7",
+	"name": "Netwey",
+	"description": "",
+	"order": [
+		"a31d6ab3-94d6-7fe0-1cad-c4cec88798c4",
+		"03167179-3b45-2ccf-3308-eb68282b45e6",
+		"70748523-923e-4091-cb06-f1e2cc2e3579",
+		"f96fc780-c703-4f85-ebf4-a1610e36ad56",
+		"e5394bef-2bd1-9a56-bbc3-b87ed6c65158",
+		"372be45c-fd1d-1775-1148-c5ac42f5a033"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1641328063999,
+	"owner": "1034295",
+	"public": false,
+	"requests": [
+		{
+			"id": "03167179-3b45-2ccf-3308-eb68282b45e6",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://netwey-lumen.test/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641329790275,
+			"name": "Login",
+			"description": "",
+			"collectionId": "d902c7c9-4bcf-8d55-da18-815fc4d26fd7",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\": \"pa_blanco@hotmail.com\",\n\t\"password\": \"123456\"\n}"
+		},
+		{
+			"id": "372be45c-fd1d-1775-1148-c5ac42f5a033",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://netwey-lumen.test/customers/show",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641399051452,
+			"name": "Show Customer",
+			"description": "",
+			"collectionId": "d902c7c9-4bcf-8d55-da18-815fc4d26fd7",
+			"responses": [],
+			"rawModeData": "{\n\t\"data\": \"20.200.125\",\n\t\"api_token\": \"GPTKb8P4DTOXlXp4GKJ6obXk2su36I9t8A7LPM2ASDEZxGw80buFkNSmxGmwc8lK76VRbYNda2S35fWeuSvNItZiv0JDKVGjDHz4JdWGgVwziGIBN8TtaKvvJq3N3efd9WLKrxwGWGkYeTX0DvSouT\"\n}"
+		},
+		{
+			"id": "70748523-923e-4091-cb06-f1e2cc2e3579",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://netwey-lumen.test/logout",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641348249280,
+			"name": "Logout",
+			"description": "",
+			"collectionId": "d902c7c9-4bcf-8d55-da18-815fc4d26fd7",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\": \"pa_blanco@hotmail.com\",\n\t\"password\": \"123456\",\n\t\"api_token\": \"wuNV3YpUBf7wgWuKcd8LvCZEgd3kLgFgVdiVgdjB6nig2FIkqCMp4he0FSR6agbdiNu4rbSKwwwVySgccIiHKjGnTwbHC0u5CWIsU9dqt2xU3pY6GGvzHmWdJGV96bGtXikBP2kT5xKFVd5d3YXmPB\"\n}"
+		},
+		{
+			"id": "a31d6ab3-94d6-7fe0-1cad-c4cec88798c4",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://netwey-lumen.test/user",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641349259257,
+			"name": "Create Users",
+			"description": "",
+			"collectionId": "d902c7c9-4bcf-8d55-da18-815fc4d26fd7",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"Nicolas Blanco\",\n\t\"email\": \"ne_blanco@hotmail.com\",\n\t\"password\": \"123456\"\n}"
+		},
+		{
+			"id": "e5394bef-2bd1-9a56-bbc3-b87ed6c65158",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://netwey-lumen.test/customers/delete",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641394373938,
+			"name": "Delete Customer",
+			"description": "",
+			"collectionId": "d902c7c9-4bcf-8d55-da18-815fc4d26fd7",
+			"responses": [],
+			"rawModeData": "{\n\t\"dni\": \"20.200.125\",\n\t\"api_token\": \"GPTKb8P4DTOXlXp4GKJ6obXk2su36I9t8A7LPM2ASDEZxGw80buFkNSmxGmwc8lK76VRbYNda2S35fWeuSvNItZiv0JDKVGjDHz4JdWGgVwziGIBN8TtaKvvJq3N3efd9WLKrxwGWGkYeTX0DvSouT\"\n}"
+		},
+		{
+			"id": "f96fc780-c703-4f85-ebf4-a1610e36ad56",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://netwey-lumen.test/customers/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641351705532,
+			"name": "Create Customer",
+			"description": "",
+			"collectionId": "d902c7c9-4bcf-8d55-da18-815fc4d26fd7",
+			"responses": [],
+			"rawModeData": "{\n\t\"dni\": \"20.200.123\",\n\t\"region\": \"Atacama\",\t\n\t\"commune\": \"Caldera\",\t\n\t\"email\": \"mh_blanco@hotmail.com\",\n\t\"name\": \"Mauro\",\n\t\"last_name\": \"Blanco\",\n\t\"address\": \"Av. Independencia #1443\",\t\n\t\"api_token\": \"ZsBAlMwNe8GcXtSKOPcKW6xh6dxASF4x8qo2sixRntIDLtf0FrsGh8OQ1uV5p6toYDBtpJjLQ4cXvUxFASGWeo8JWmxBRlgyohhw3MGgHfua2fzndzqLUACuypaLuUR56fZtVcVZu1te7wLSYMK6Eq\"\n}"
+		}
+	]
+}
