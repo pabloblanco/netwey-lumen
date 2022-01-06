@@ -1,7 +1,3 @@
-# netwey-lumen
-
-# Definición de servicios, metodos
-
 # Requerimientos minimos
 
     Apache 2.4
@@ -89,35 +85,27 @@
 
 2.- Crear usuarios que consumiran la API
 
-
 ![ScreenHunter 2316](https://user-images.githubusercontent.com/11873645/148294947-f8bacfd2-f6e4-47e9-ad99-2402ca3f479f.png)
-
 
 3.- Loguear el usuario que consumira los servicios
 
-
 ![ScreenHunter 2317](https://user-images.githubusercontent.com/11873645/148294952-7b1e7357-491e-4307-8fc5-bc60d8268b9c.png)
-
 
 4.- Desconectar el usuario una vez que se termine de usar la API
 
-
 ![ScreenHunter 2318](https://user-images.githubusercontent.com/11873645/148294954-436aa3b1-8ab1-4a34-a4b5-35834ca75e92.png)
-
 
 5.- Crear un Customer con la api_token que devolvio la aplicacion al loguearse contemplando las reglas del documento de requerimientos
 
-
 ![ScreenHunter 2319](https://user-images.githubusercontent.com/11873645/148294955-a8ea8a07-7ce6-43a8-ac32-1bae8671ea56.png)
-
 
 6.- Mostrar el Customer
 
-
-![ScreenHunter 2320](https://user-images.githubusercontent.com/11873645/148294958-6b65e3b6-1ef3-4a3c-948f-3dbc968da36e.png)
+![ScreenHunter 2321](https://user-images.githubusercontent.com/11873645/148294960-ceb0e32b-4d7f-437f-9952-954436e235e9.png)
 
 
 7.- Borrar el Customer
 
+![ScreenHunter 2320](https://user-images.githubusercontent.com/11873645/148294958-6b65e3b6-1ef3-4a3c-948f-3dbc968da36e.png)
 
-![ScreenHunter 2321](https://user-images.githubusercontent.com/11873645/148294960-ceb0e32b-4d7f-437f-9952-954436e235e9.png)
+
